@@ -1,5 +1,5 @@
 <h1>README</h1>
-Projet de normalisation des noms d'équipement
+Projet de normalisation des noms des équipements
 
 <h2>Introduction</h2>
 L'objectif de ce projet est de créer un modèle qui peut normaliser le nom de tout équipement dans une usine. Les variations dans la façon dont les noms des équipements sont écrits ou étiquetés peuvent entraîner des erreurs de communication ou des problèmes de maintenance. Avec un modèle de standardisation des noms d'équipements, les travailleurs de l'usine peuvent être sûrs qu'ils parlent tous de la même chose, quel que soit le fabricant ou la variation dans la façon dont les noms sont écrits.
