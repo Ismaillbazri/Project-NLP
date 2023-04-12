@@ -49,7 +49,7 @@ if __name__ == '__main__':
         result = predict(equipment_name)
         if result is None:
             print("No prediction found.")
-        else:
+        else: 
             print("-------------------------------------------")
             for prediction in result:
                 print(f"Predicted Name: {prediction[0]}, Confidence: {prediction[1]}",)
