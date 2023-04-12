@@ -1,6 +1,6 @@
 Téléchargez le fichier predict.py sur votre ordinateur.
 
-Téléchargez les fichiers de modèle NLP entraînés (trained_Nlp_model.pkl ettrained_Nlp_vectorizer.pkl) et placez-les dans le même répertoire que le fichier predict.py.
+Téléchargez les fichiers de modèle NLP et vectorizer entraînés (trained_Nlp_model.pkl et trained_Nlp_vectorizer.pkl) et placez-les dans le même répertoire que le fichier predict.py.
 
 Ouvrez une invite de commande ou un terminal et accédez au répertoire où se trouve le fichier predict.py.
 
@@ -14,4 +14,4 @@ Le programme affichera les trois meilleures classes prédites et leurs scores de
 
 Pour avoir les metriques de ce modéle executez le fichier predict.ipynb .
 
-Remarque : Assurez-vous que les packages requis sont installés, tels que numpy, pandas, nltk et scikit-learn, car ils sont utilisés dans le fichier predict.py en utiliant la commande pip install requirements.txt .
+Remarque : Assurez-vous que les packages requis sont installés, tels que numpy, pandas, nltk et scikit-learn, car ils sont utilisés dans le fichier predict.py en utilisant la commande pip install -r requirements.txt .
