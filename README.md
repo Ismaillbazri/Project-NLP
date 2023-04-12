@@ -29,8 +29,11 @@ Entraînement d'un modèle de régression logistique sur les données vectorisé
 Le projet est livré dans ce dépôt git. Il comprend les fichiers suivants :
 
 predict.py : un script python qui contient une fonction pour normaliser les noms d'équipement.
-trained_Nlp_model.pkl : un fichier pickle contenant le modèle de régression logistique formé.
+predict.ipynb : un fichier python qui contient l'entrainement du modéle et ses metrics (précision, recall , accuracy, F1-score).
+trained_Nlp_model.pkl : un fichier pickle contenant le modèle de régression logistique formé.
 trained_Nlp_vectorizer.pkl : un fichier pickle contenant le vectoriseur formé.
+INSTRUCTIONS.md 
+
 Le fichier predict.py contient la fonction predict qui prend une chaîne en paramètre (le nom de l'équipement) et retourne une liste de tuple (nom prédit, confiance) ou None si le nom n'est pas reconnu.
 <h2>Usage</h2>
 
