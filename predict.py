@@ -3,6 +3,11 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
 import pickle
 
+# ----- A commenter aprés première exécution ---
+import nltk
+nltk.download('punkt')
+#-----------
+
 def predict(equipment_name):   
 
     # Récupération de fichiers enregistrés 
